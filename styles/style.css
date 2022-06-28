@@ -14,9 +14,19 @@ h1{
 }
 h2{
     font-size: 22px;
+
 }
+.content h2{
+    color: white;
+    background-color: #1e2939;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-block;
+}
+
 h3{
     font-size: 16px;
+    text-decoration: underline;
 }
 h3 b{
     color: #FB6D3A;
@@ -44,6 +54,10 @@ h2,h3,h4{
     font-weight: 1000;
 }
 
+hr{
+    margin: -10px 0 0 0;
+}
+
 li,dd{
     margin: 5px 0;
 }
@@ -54,6 +68,11 @@ li{
 
 li span{
     margin-left: 10px;
+}
+
+p{
+    margin: 20px 0;
+    white-space: pre-wrap;
 }
 
 p, .content li{
@@ -101,6 +120,9 @@ dd:not(.border-bottom dd)::after{
     font-weight: 1000;
 }
 
+
+
+
 .sidebar{
     background-color: #1E2939;
     color: white;
@@ -145,10 +167,10 @@ dd:not(.border-bottom dd)::after{
 }
 
 .xs{
-    width: 327px;
+    width: 350px;
 }
 .s{
-    width: 400px;
+    width: 450px;
 }  
 .m{
     width: 555px;
@@ -231,3 +253,39 @@ main{
 }
 
 /*ctrl + /*/
+
+body ::selection {
+    color: white; /* Цвет текста */
+    background: #FB6D3A; /* Цвет фона */
+    border-radius: 25px;
+   }
+
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, dd::selection {
+    color: #202d42; /* Цвет текста */
+    background: #FB6D3A; /* Цвет фона */
+    text-shadow: 0.2vh 0px 0px rgba(255, 255, 255, 0.45);
+   }
+
+.infoP{
+    margin-left: 15px;   
+}
+
+.infoP dd{
+    margin-left: 10px;
+}
+
+.infoP p{
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    padding: 6px;
+    font-size: 16px;
+    color: white;
+    background-color:#fb6d3abc;
+    border-radius: 3px;
+    
+}
+
+.tdNone h3{
+    text-decoration:none;
+}
