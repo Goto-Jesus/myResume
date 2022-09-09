@@ -187,7 +187,7 @@ dd:not(.border-bottom dd)::after{
     margin-top: 40px;
 }
 
-
+/*  */
 #photo{
     display: block;
     background-image: url('../images/photo.png');
